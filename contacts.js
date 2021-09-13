@@ -1,7 +1,7 @@
 const fs = require("fs/promises");
 const path = require("path");
 const { v4 } = require("uuid");
-const contacts = require("./db/contacts.json");
+// const contacts = require("./db/contacts.json");
 
 const contactsPath = path.join(__dirname, './db/contacts.json');
 
@@ -11,7 +11,9 @@ const updateContacts = async(newContacts) => {
 
 // TODO: задокументировать каждую функцию
 async function listContacts() {
-    return contacts;
+  const data = await fs.readFile("./db/contacts.json");
+  const contacts = JSON.parse(data);
+  return contacts;
 }
 
 async function getContactById(contactId) {
