@@ -1,4 +1,4 @@
-const contactsOperations = require("./contacts.js");
+const contactsOperations = require("./contacts");
 const argv = require('yargs').argv;
 
 // TODO: рефакторить;
