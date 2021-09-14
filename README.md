@@ -21,6 +21,6 @@ https://ibb.co/1LpyM7y - тз дз
 https://ibb.co/MPK4dYg - по практике
 https://ibb.co/chZfVgN - тз дз
 
-## Сделала папек contact
+## Сделала папку contact
 
 https://ibb.co/RDR8vzH
